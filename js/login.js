@@ -9,7 +9,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     // step 3:- 
     if(phoneNumber == '5' && pinNumber === '1234'){
         console.log('login page')
-        
+        window.location.href = '/home.html'
     }
     else{
         alert('wrong phon number or pin number')
